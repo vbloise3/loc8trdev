@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6034ba4-f699-40ca-9561-e9d40140ac91" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app_server/views/_includes/sharedHTMLfunctions.jade" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_server/controllers/locations.js" afterPath="$PROJECT_DIR$/app_server/controllers/locations.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_server/controllers/others.js" afterPath="$PROJECT_DIR$/app_server/controllers/others.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_server/views/generic-text.jade" afterPath="$PROJECT_DIR$/app_server/views/generic-text.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_server/views/location-info.jade" afterPath="$PROJECT_DIR$/app_server/views/location-info.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_server/views/location-review-form.jade" afterPath="$PROJECT_DIR$/app_server/views/location-review-form.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_server/views/locations-list.jade" afterPath="$PROJECT_DIR$/app_server/views/locations-list.jade" />
     </list>
     <ignored path="loc8trdev.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -324,7 +316,7 @@
       <updated>1459202039080</updated>
       <workItem from="1459202041481" duration="2126000" />
       <workItem from="1459295318839" duration="2454000" />
-      <workItem from="1459380886413" duration="4731000" />
+      <workItem from="1459380886413" duration="4779000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1459202598913</created>
@@ -351,7 +343,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9311000" />
+    <option name="totallyTimeSpent" value="9359000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
