@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e6034ba4-f699-40ca-9561-e9d40140ac91" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_server/models/db.js" afterPath="$PROJECT_DIR$/app_server/models/db.js" />
     </list>
     <ignored path="loc8trdev.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,8 +47,8 @@
       <file leaf-file-name="db.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app_server/models/db.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28">
-              <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+            <state relative-caret-position="88">
+              <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
               <folding>
                 <element signature="e#0#45#0" expanded="false" />
               </folding>
@@ -101,8 +102,8 @@
         <option value="$PROJECT_DIR$/app_server/controllers/locations.js" />
         <option value="$PROJECT_DIR$/app_server/views/_includes/sharedHTMLfunctions.jade" />
         <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/app_server/models/db.js" />
         <option value="$PROJECT_DIR$/app_server/models/locations.js" />
+        <option value="$PROJECT_DIR$/app_server/models/db.js" />
       </list>
     </option>
   </component>
@@ -378,7 +379,7 @@
       <workItem from="1459622720648" duration="96000" />
       <workItem from="1459622889150" duration="536000" />
       <workItem from="1459810948764" duration="39000" />
-      <workItem from="1459811046271" duration="3229000" />
+      <workItem from="1459811046271" duration="4026000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1459202598913</created>
@@ -415,11 +416,25 @@
       <option name="project" value="LOCAL" />
       <updated>1459472816647</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Moved logic and data from jade templates to controllers">
+      <created>1459817559409</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1459817559409</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added production database logic">
+      <created>1459818098140</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1459818098140</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16800000" />
+    <option name="totallyTimeSpent" value="17597000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -432,14 +447,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="21" y="36" width="1400" height="777" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24945612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896653" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32896653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329927" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -469,7 +484,8 @@
     <MESSAGE value="Added jade template for locations-list with associated controller logic" />
     <MESSAGE value="Added jade template for locations-add and about with associated controller logic" />
     <MESSAGE value="Moved logic and data from jade templates to controllers" />
-    <option name="LAST_COMMIT_MESSAGE" value="Moved logic and data from jade templates to controllers" />
+    <MESSAGE value="Added production database logic" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added production database logic" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -758,8 +774,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app_server/models/db.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+        <state relative-caret-position="88">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
           <folding>
             <element signature="e#0#45#0" expanded="false" />
           </folding>
