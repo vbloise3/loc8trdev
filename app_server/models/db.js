@@ -6,6 +6,8 @@ var gracefulShutdown;
 var dbURI = 'mongodb://localhost/Loc8r';
 if (process.env.NODE_ENV === 'production') {
     dbURI = process.env.MONGOLAB_URI;
+    //or
+    dbURI= 'mongod://vbloise:oise4110@ds015730.mlab.com:15730/loc8tr';
 }
 
 
