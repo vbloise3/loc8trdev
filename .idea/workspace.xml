@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e6034ba4-f699-40ca-9561-e9d40140ac91" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_server/controllers/locations.js" afterPath="$PROJECT_DIR$/app_server/controllers/locations.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_server/routes/index.js" afterPath="$PROJECT_DIR$/app_server/routes/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_server/views/locations-list.jade" afterPath="$PROJECT_DIR$/app_server/views/locations-list.jade" />
     </list>
     <ignored path="loc8trdev.iws" />
@@ -27,8 +29,8 @@
       <file leaf-file-name="locations-list.jade" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app_server/views/locations-list.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+            <state relative-caret-position="285">
+              <caret line="19" column="61" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -37,8 +39,8 @@
       <file leaf-file-name="locations.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app_server/controllers/locations.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="79" column="12" selection-start-line="79" selection-start-column="12" selection-end-line="79" selection-end-column="12" />
+            <state relative-caret-position="-450">
+              <caret line="108" column="2" selection-start-line="108" selection-start-column="2" selection-end-line="108" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -69,7 +71,7 @@
       <file leaf-file-name="locations.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app_api/controllers/locations.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
+            <state relative-caret-position="915">
               <caret line="63" column="52" selection-start-line="63" selection-start-column="52" selection-end-line="63" selection-end-column="52" />
               <folding>
                 <element signature="e#0#44#0" expanded="false" />
@@ -105,6 +107,7 @@
         <option value="$PROJECT_DIR$/app_api/routes/index.js" />
         <option value="$PROJECT_DIR$/app_api/controllers/reviews.js" />
         <option value="$PROJECT_DIR$/app_api/controllers/locations.js" />
+        <option value="$PROJECT_DIR$/app_server/routes/index.js" />
         <option value="$PROJECT_DIR$/app_server/views/locations-list.jade" />
         <option value="$PROJECT_DIR$/app_server/controllers/locations.js" />
       </list>
@@ -146,7 +149,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -329,7 +332,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -968,7 +971,8 @@
       <workItem from="1460308815554" duration="1826000" />
       <workItem from="1460326982739" duration="425000" />
       <workItem from="1460413645288" duration="7068000" />
-      <workItem from="1460504163421" duration="960000" />
+      <workItem from="1460504163421" duration="1562000" />
+      <workItem from="1460588977691" duration="719000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1459202598913</created>
@@ -1096,11 +1100,18 @@
       <option name="project" value="LOCAL" />
       <updated>1460423138917</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Added error display to locations template">
+      <created>1460507416165</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1460507416165</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40116000" />
+    <option name="totallyTimeSpent" value="41437000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1160,7 +1171,8 @@
     <MESSAGE value="Added request skeleton to locations controller" />
     <MESSAGE value="Added first display of REST response" />
     <MESSAGE value="Fixed distance in first display of REST response" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed distance in first display of REST response" />
+    <MESSAGE value="Added error display to locations template" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added error display to locations template" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1506,24 +1518,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app_api/models/locations.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="48" column="23" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app_api/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_server/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1545,17 +1543,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app_server/views/locations-list.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app_api/controllers/locations.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
+        <state relative-caret-position="915">
           <caret line="63" column="52" selection-start-line="63" selection-start-column="52" selection-end-line="63" selection-end-column="52" />
           <folding>
             <element signature="e#0#44#0" expanded="false" />
@@ -1563,10 +1553,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app_api/models/locations.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="48" column="23" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_server/views/locations-list.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="61" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_server/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="64" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app_server/controllers/locations.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="79" column="12" selection-start-line="79" selection-start-column="12" selection-end-line="79" selection-end-column="12" />
+        <state relative-caret-position="-450">
+          <caret line="108" column="2" selection-start-line="108" selection-start-column="2" selection-end-line="108" selection-end-column="2" />
           <folding />
         </state>
       </provider>
